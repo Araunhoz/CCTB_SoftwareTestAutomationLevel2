@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T00:44:23Z" name="Default suite" finished-at="2024-07-26T00:44:28Z" duration-ms="5157">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T00:44:23Z" name="Default test" finished-at="2024-07-26T00:44:28Z" duration-ms="5157">
+      <class name="Test02.Test02.Q3.TargetSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test02.Test02.Q3.TargetSearchTest@534a5a98]" started-at="2024-07-25T17:44:23Z" name="setUp" finished-at="2024-07-25T17:44:24Z" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTargetSearch()[pri:0, instance:Test02.Test02.Q3.TargetSearchTest@534a5a98]" started-at="2024-07-25T17:44:24Z" name="testTargetSearch" finished-at="2024-07-25T17:44:28Z" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTargetSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test02.Test02.Q3.TargetSearchTest@534a5a98]" started-at="2024-07-25T17:44:28Z" name="tearDown" finished-at="2024-07-25T17:44:28Z" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test02.Test02.Q3.TargetSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T00:28:58Z" name="Default suite" finished-at="2024-07-26T00:29:01Z" duration-ms="2751">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T00:28:58Z" name="Default test" finished-at="2024-07-26T00:29:01Z" duration-ms="2751">
+      <class name="Test02.Test02.Q2.WikipediaSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test02.Test02.Q2.WikipediaSearchTest@771a660]" started-at="2024-07-25T17:28:58Z" name="setUp" finished-at="2024-07-25T17:28:59Z" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWikipediaSearch()[pri:0, instance:Test02.Test02.Q2.WikipediaSearchTest@771a660]" started-at="2024-07-25T17:28:59Z" name="testWikipediaSearch" finished-at="2024-07-25T17:29:01Z" duration-ms="1692" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The search results page does not contain the search term. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The search results page does not contain the search term. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at Test02.Test02.Q2.WikipediaSearchTest.testWikipediaSearch(WikipediaSearchTest.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWikipediaSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test02.Test02.Q2.WikipediaSearchTest@771a660]" started-at="2024-07-25T17:29:01Z" name="tearDown" finished-at="2024-07-25T17:29:01Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test02.Test02.Q2.WikipediaSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
